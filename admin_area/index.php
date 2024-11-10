@@ -48,7 +48,7 @@
     <!-- first child -->
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
         <div class="container-fluid">
-            <img src="../webimg/petshoplogo.png" alt="" class="logo">
+            <img src="../webimg/logo2.jpg" alt="" class="logo">
             <nav class="navbar navbar-expand-lg ">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -81,9 +81,9 @@
                 <button><a href="index.php?view_categories" class="nav-link text-light bg-info my-1">View Categories</a></button>
                 <button><a href="index.php?insert_brands" class="nav-link text-light bg-info my-1">Insert Brands</a></button>
                 <button><a href="index.php?view_brands" class="nav-link text-light bg-info my-1">View Brands</a></button>
-                <button><a href="" class="nav-link text-light bg-info my-1">All Orders</a></button>
-                <button><a href="" class="nav-link text-light bg-info my-1">All Payments</a></button>
-                <button><a href="" class="nav-link text-light bg-info my-1">List users</a></button>
+                <button><a href="index.php?list_orders" class="nav-link text-light bg-info my-1">All Orders</a></button>
+                <button><a href="index.php?list_payments" class="nav-link text-light bg-info my-1">All Payments</a></button>
+                <button><a href="index.php?list_users" class="nav-link text-light bg-info my-1">List users</a></button>
                 <button><a href="" class="nav-link text-light bg-info my-1">Logout</a></button>
             </div>
         </div>
@@ -115,6 +115,15 @@
            }
            if(isset($_GET['edit_category'])){
             include('edit_category.php');
+           }
+           if(isset($_GET['list_orders'])){
+            include('list_orders.php');
+           }
+           if(isset($_GET['list_payments'])){
+            include('list_payments.php');
+           }
+           if(isset($_GET['list_users'])){
+            include('list_users.php');
            }
          ?>  
         </div> 

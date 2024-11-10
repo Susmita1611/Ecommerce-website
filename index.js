@@ -2,10 +2,14 @@ const swiper = new Swiper('.swiper', {
     // Optional parameters
     loop: true,
     // const swiper = new swiper|('.swiper' , {
-    //   autoplay:{
-    //     delay:5000,
-    //   },
-    
+      autoplay:{
+        indicators: true,
+      speed: 1500,
+      delay: 5000,
+      parallax: 0.25
+        // delay:5000,
+      },
+      
   
     // If we need pagination
     pagination: {

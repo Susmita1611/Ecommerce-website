@@ -49,7 +49,7 @@ session_start();
           }
 
           .swiper-slide h4{
-            font-size: 7rem;
+            font-size: 4rem;
             display: flex;
             justify-content: center;
             text-align:center;
@@ -70,7 +70,7 @@ session_start();
         <!-- first child -->
         <nav class="navbar navbar-expand-lg navbar-light bg-info">
   <div class="container-fluid">
-   <img src="./webimg/petshoplogo.png" alt="" class="logo">
+   <img src="./webimg/logo2.jpg" alt="" class="logo">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -158,13 +158,23 @@ if(!isset($_SESSION['username'])){
       <h4>Find Your <br> Perfect Pet</h4>
       <img src="./webimg/slider6.jpg" alt="Slide 1">
     </div>
+    
+    <div class="swiper-slide">
+      <h4> DOG AND CAT ARE BUNDLE OF LOVE,<br>WRAPPED IN</h4>
+      <img src="./webimg/a2.jpg" alt="Slide 1">
+    </div>
+    <div class="swiper-slide">
+      <h4>Makes Your <br> Pet Happy</h4>
+      <img src="./webimg/a3.jpg" alt="Slide 1">
+    </div>
     <div class="swiper-slide">
       <h4>Makes Your <br> Pet Happy</h4>
       <img src="./webimg/slider1.jpg" alt="Slide 1">
     </div>
+    
     <div class="swiper-slide">
-      <h4>Makes Your <br> Pet Happy</h4>
-      <img src="./webimg/slider3.jpg" alt="Slide 1">
+      <h4> All guests must be Approved by my  <br>DOG n CAT</h4>
+      <img src="./webimg/a5.jpg" alt="Slide 1">
     </div>
   </div>
   <!-- If we need pagination -->
